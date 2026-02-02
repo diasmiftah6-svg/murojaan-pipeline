@@ -5,9 +5,22 @@ pipeline {
         }
     }
     stages {
-        stage("helo") {
+
+        stage("Build") {
             steps {
-                echo("helo pipeline")
+                echo("helo Build")
+            }
+        }
+
+        stage("Test") {
+            steps {
+                echo("helo Test")
+            }
+        }
+
+        stage("Deploy") {
+            steps {
+                echo("helo Deploy")
             }
         }
     }
