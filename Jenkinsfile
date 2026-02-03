@@ -8,7 +8,9 @@ pipeline {
 
         stage("Build") {
             steps {
-                echo("helo Build")
+                echo("helo Build 1")
+                echo("helo Build 2")
+                echo("helo Build 3")
             }
         }
 
