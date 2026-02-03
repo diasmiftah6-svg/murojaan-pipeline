@@ -16,13 +16,17 @@ pipeline {
 
         stage("Test") {
             steps {
-                echo("helo Test")
+                echo("helo Test 1")
+                echo("helo Test 2")
+                echo("helo Test 3")
             }
         }
 
         stage("Deploy") {
             steps {
-                echo("helo Deploy")
+                echo("helo Deploy 1")
+                echo("helo Deploy 2")
+                echo("helo Deploy 3")
             }
         }
     }
